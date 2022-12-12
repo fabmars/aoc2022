@@ -10,7 +10,7 @@ public class Aoc20221208_2 {
 
   public static void main(String[] args) throws IOException {
     int best = 0;
-    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_2.class.getResourceAsStream("/1208-trees.txt")))) {
+    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221208_2.class.getResourceAsStream("/1208-trees.txt")))) {
       List<char[]> lines = new ArrayList<>();
       String line;
       while ((line = br.readLine()) != null) {

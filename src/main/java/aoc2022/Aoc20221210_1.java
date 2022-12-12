@@ -16,7 +16,7 @@ public class Aoc20221210_1 {
 
   static ArrayList<Integer> execIntructions(int x) throws IOException {
     var values = new ArrayList<Integer>();
-    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_2.class.getResourceAsStream("/1210-signal.txt")))) {
+    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221210_1.class.getResourceAsStream("/1210-signal.txt")))) {
       String line;
       while ((line = br.readLine()) != null) {
         String[] parts = line.split(" ");

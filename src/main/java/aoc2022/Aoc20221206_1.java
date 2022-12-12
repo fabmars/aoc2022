@@ -14,7 +14,7 @@ public class Aoc20221206_1 {
   }
 
   static int findMarker(int markerLength) throws IOException {
-    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_2.class.getResourceAsStream("/1206-device.txt")))) {
+    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_1.class.getResourceAsStream("/1206-device.txt")))) {
       String line = br.readLine();
       for (int i = 0; i < line.length() - markerLength; i++) {
         String substring = line.substring(i, i + markerLength);

@@ -15,7 +15,7 @@ public class Aoc20221208_1 {
     char ground = '0' - 1;
     Set<Point> visible = new HashSet<>();
 
-    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_2.class.getResourceAsStream("/1208-trees.txt")))) {
+    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221208_1.class.getResourceAsStream("/1208-trees.txt")))) {
       List<char[]> lines = new ArrayList<>();
       String line;
       while((line = br.readLine()) != null) {

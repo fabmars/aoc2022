@@ -13,7 +13,7 @@ public class Aoc20221209_1 {
     Set<Point> visited = new HashSet<>();
     Point head = new Point(), tail = new Point();
 
-    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_2.class.getResourceAsStream("/1209-ropes.txt")))) {
+    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221209_1.class.getResourceAsStream("/1209-ropes.txt")))) {
       String line;
       while ((line = br.readLine()) != null) {
         String[] parts = line.split(" ");

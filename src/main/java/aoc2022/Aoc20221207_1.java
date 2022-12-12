@@ -16,7 +16,7 @@ public class Aoc20221207_1 {
   public static Dir readScript() throws IOException {
     Dir root = null;
 
-    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_2.class.getResourceAsStream("/1207-filesystem.txt")))) {
+    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221207_1.class.getResourceAsStream("/1207-filesystem.txt")))) {
       Dir current = null;
       String line;
       while((line = br.readLine()) != null) {

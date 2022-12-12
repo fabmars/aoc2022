@@ -24,7 +24,7 @@ public class Aoc20221209_2 {
     Set<Point> visited = new HashSet<>();
     List<Point> knots = IntStream.range(0, knotCount).mapToObj(operand -> new Point()).toList();
 
-    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221206_2.class.getResourceAsStream("/1209-ropes.txt")))) {
+    try(BufferedReader br = new BufferedReader(new InputStreamReader(Aoc20221209_2.class.getResourceAsStream("/1209-ropes.txt")))) {
       String line;
       while ((line = br.readLine()) != null) {
         String[] parts = line.split(" ");
